@@ -4,11 +4,12 @@ import arr from '../assets/image/arr-removebg-preview.png'
 
 const NavBar = () => {
   return (
-    <div className=' flex justify-between m-0'>
-        <div className=' w-40'>
+    <div>q
+        <div className=' flex  justify-between '>
+          <div className=' w-40'>
             <img src={arr} alt="Ar-rahman sooto automobile"/>
         </div>
-        <ul className='flex gap-9 mt-14'>
+        <ul className='flex gap-9 mt-14 mr-10'>
             <li>
             <NavLink className='text-blue-700 text-xl capitalize' to={"/"}>home</NavLink>
             </li>
@@ -22,6 +23,7 @@ const NavBar = () => {
                 <NavLink className='text-blue-700 text-xl capitalize' to={"contact"}>contact</NavLink>
             </li>
         </ul>
+        </div>
     </div>
   )
 }
