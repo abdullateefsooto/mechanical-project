@@ -1,0 +1,85 @@
+.service-section {
+  margin-bottom: 40px;
+}
+
+.service-title {
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  color: #1e40af;
+  font-family: serif;
+  text-transform: capitalize;
+  margin-bottom: 12px;
+}
+
+.service-row {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+}
+
+.service-row-bottom {
+  margin-top: 40px;
+}
+
+.service-card {
+  background-color: #cbd5e1;
+  border-radius: 8px;
+}
+
+.service-image {
+  width: 384px;
+  height: 240px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.service-card-footer {
+  display: flex;
+  padding: 12px 8px;
+}
+
+.service-footer-gap {
+  gap: 8px;
+}
+
+.service-text {
+  text-transform: capitalize;
+  font-family: serif;
+  margin-top: 8px;
+  font-size: 18px;
+}
+
+.service-text-highlight {
+  color: #2563eb;
+}
+
+.service-icon {
+  width: 40px;
+  height: 40px;
+  color: #2563eb;
+}
+
+.service-icon-diag {
+  margin-left: 176px;
+}
+
+.service-icon-oil {
+  margin-left: 224px;
+}
+
+.service-icon-air {
+  margin-left: 160px;
+}
+
+.service-icon-susp {
+  margin-left: 240px;
+}
+
+.service-icon-engine {
+  margin-left: 256px;
+}
+
+.service-icon-brake {
+  margin-left: 256px;
+}

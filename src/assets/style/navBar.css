@@ -1,0 +1,19 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.arr{
+    width: 140px;
+}
+.links{
+    display: flex;
+    list-style: none;
+    gap: 14px;
+    margin-top: 40px;
+    text-transform: capitalize;
+}
+.a{
+    font-size: x-large;
+    text-decoration: none;
+    color: #2701ff;
+}

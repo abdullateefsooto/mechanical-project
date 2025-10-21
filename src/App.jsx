@@ -6,6 +6,7 @@ import { About, Contact, Home, HomeLayOut, Service } from './pages'
 function App() {
   
 const router = createBrowserRouter([
+  
   {
     path:'/',
     element: <HomeLayOut />,

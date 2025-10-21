@@ -1,0 +1,62 @@
+/* About Section */
+.about-section {
+  margin-bottom: 40px;
+}
+
+.about-title {
+  text-transform: capitalize;
+  color: #1e3a8a;
+  text-align: center;
+  font-family: serif;
+  font-size: 48px;
+}
+
+/* About Grid */
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 80px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.about-image {
+  width: 384px;
+  border-radius: 12px;
+}
+
+/* Mission Section */
+.mission-section {
+  margin-left: 40px;
+}
+
+.mission-title {
+  text-transform: capitalize;
+  text-align: center;
+  font-family: serif;
+  color: #1e3a8a;
+  font-size: 36px;
+}
+
+.mission-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.mission-text {
+  margin-top: 40px;
+}
+
+.mission-images {
+  display: flex;
+  gap: 8px;
+}
+
+.mission-image-lg {
+  width: 256px;
+  border-radius: 8px;
+}
+
+.mission-image-sm {
+  border-radius: 8px;
+}

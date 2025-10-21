@@ -1,0 +1,158 @@
+.contact-section {
+  margin-bottom: 40px;
+}
+
+.contact-container {
+  margin-left: 160px;
+  margin-right: 160px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.contact-heading {
+  font-family: serif;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+.contact-info {
+  display: flex;
+}
+
+.contact-info-gap {
+  gap: 12px;
+}
+
+.contact-icon {
+  color: #1e3a8a;
+  height: 80px;
+  width: 80px;
+}
+
+.contact-location-icon {
+  color: #1e3a8a;
+  height: 80px;
+  width: 160px;
+}
+
+.contact-crane-icon {
+  height: 80px;
+  width: 240px;
+  color: #1e3a8a;
+}
+
+.contact-info-text {
+  margin-top: 12px;
+}
+
+.contact-subtext {
+  text-transform: capitalize;
+  color: #9ca3af;
+}
+
+.contact-form-title {
+  font-family: serif;
+  text-transform: capitalize;
+  color: #1e3a8a;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.contact-form-grid {
+  display: flex;
+  gap: 40px;
+}
+
+.contact-input {
+  background-color: #e5e7eb;
+  border: 1px solid #d1d5db;
+  text-transform: capitalize;
+  width: 256px;
+  height: 64px;
+  border-radius: 12px;
+}
+
+.contact-input-gap {
+  margin-top: 20px;
+}
+
+.contact-textarea {
+  background-color: #e5e7eb;
+  border: 1px solid #d1d5db;
+  text-transform: capitalize;
+  width: 384px;
+  height: 240px;
+  border-radius: 12px;
+}
+
+.contact-btn {
+  border-style: dashed;
+  background-color: #1d4ed8;
+  border-radius: 8px;
+  padding: 16px 8px;
+  color: white;
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+.contact-map-appointment {
+  display: flex;
+  gap: 128px;
+}
+
+.contact-map {
+  border-radius: 8px;
+  margin-top: 20px;
+  border: 0;
+}
+
+.appointment-card {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.appointment-icon {
+  height: 128px;
+  width: 160px;
+  margin-left: 36px;
+}
+
+.appointment-title {
+  font-size: 24px;
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+
+.appointment-highlight {
+  color: #1e40af;
+}
+
+.appointment-subtext {
+  color: #6b7280;
+  margin-top: 40px;
+  text-transform: capitalize;
+}
+
+.appointment-btn-wrapper {
+  margin-top: 40px;
+}
+
+.appointment-btn {
+  border-radius: 16px;
+  background-color: #1e40af;
+  color: white;
+  padding: 8px 12px;
+  text-decoration: none;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: capitalize;
+}
+
+.appointment-btn:hover {
+  text-decoration: underline;
+}
