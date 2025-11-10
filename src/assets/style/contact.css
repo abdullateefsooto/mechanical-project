@@ -74,7 +74,13 @@
   text-transform: capitalize;
   width: 256px;
   height: 64px;
+  font-size: large;
   border-radius: 12px;
+}
+.contact-input:focus{
+  border-color: #3d3ddd;
+  box-shadow: 0 0 5px rgba(20, 12, 69, 0.3);
+  outline: none;
 }
 
 .contact-input-gap {
@@ -86,8 +92,14 @@
   border: 1px solid #d1d5db;
   text-transform: capitalize;
   width: 384px;
+  font-size: x-large;
   height: 240px;
   border-radius: 12px;
+}
+.contact-textarea:focus{
+  border-color: #3d3ddd;
+  box-shadow: 0 0 5px rgba(20, 12, 69, 0.3);
+  outline: none;
 }
 
 .contact-btn {
@@ -98,6 +110,8 @@
   color: white;
   font-weight: bold;
   margin-top: 16px;
+  font-size: large;
+  text-transform: capitalize;
 }
 
 .contact-map-appointment {

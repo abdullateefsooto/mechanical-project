@@ -1,8 +1,13 @@
 import { IconBrandWhatsapp, IconCarCrane, IconLocation, IconPercentage } from "@tabler/icons-react"
 import "../assets/style/contact.css"
+import { Link } from "react-router-dom"
 
 
 const Contact = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    alert('Message sent! We will get back to you soon.');
+  }
   return (
     <div className="contact-section">
       <div className="contact-container">
@@ -47,7 +52,7 @@ const Contact = () => {
         {/* Contact Form */}
         <div>
           <h1 className="contact-form-title">drop us a message</h1>
-          <form>
+          <form onSubmit={handleSubmit}>
             <div className="contact-form-grid">
               <div>
                 <input type="text" name="name" id="name" placeholder="your name" className="contact-input" />
@@ -83,7 +88,8 @@ const Contact = () => {
             </h2>
             <p className="appointment-subtext">book your appointment now</p>
             <div className="appointment-btn-wrapper">
-              <a href="#" className="appointment-btn">make an appointment</a>
+              {/* <a href="#" className="appointment-btn">make an appointment</a> */}
+              <Link to="/book" className="appointment-btn">make an appointment</Link>
             </div>
           </div>
         </div>

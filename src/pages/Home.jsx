@@ -1,6 +1,7 @@
 import {  IconCarCrane, IconCheckbox, IconChevronRight, IconTool  } from '@tabler/icons-react'
 import lx from '../assets/image/LX.jpg'
 import "../assets/style/home.css"
+import { Link } from 'react-router-dom';
 
 const home = () => {
   return (
@@ -9,25 +10,33 @@ const home = () => {
 
             {/* hero banner */}
             <div className='backGround'>
-              <div>
                 <div>
-                  <p className='wel'>Welcome to Ar-Raman Sooto Autocare</p>
-                  <p className='wel'>we give you top-notch services</p>
+                  <div>
+                    <div>
+                      <p className='wel'>Welcome to Ar-Raman Sooto Autocare</p>
+                      <p className='wel'>we give you top-notch services.</p>
+                    </div>
+                  </div>
+                  <div className='premium'>
+                    <div  className='round'>
+                      <p  className='welll'>we make your car last longer</p>
+                      <p className='well'>using premium lubricants, geniue part and our expert mechanics.</p>
+                    </div>
+                  </div>
+                  <div>
+                    <div  className='ground'>
+                      <p className='wel'>Driving safe is first.</p>                  
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div className='premium'>
-                <div>
-                <p  className='wel'>we make your car last longer</p>
-                <p className='wel'>using premium lubricants, geniue part and our expert mechanics.</p>
-                </div>
-              </div>
             </div>
 
 
 
               <div className='schedule' >
                 <p className='diag'>Schedule a Diagnostics Appointment for your Vehicle</p>
-                <a href='#' className='book'>book appointment</a>
+                {/* <link to="/book" className='book'>book appointment </link> */}
+                <Link to="/book" className='book'>Book Appointment</Link>
               </div>
               {/* what we do */}
               <div>

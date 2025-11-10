@@ -1,18 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Stack+Sans+Headline:wght@200..700&display=swap');
+
 .backGround{
-    background-image: url("../image/car-engine-new1.jpg");
+    background-image: url("../image/TOYODA.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position: top; */
+    background-position: center;
     /* display: flex; */
     border-radius: 20px;
     height: 100dvh;
 }
+.ground{
+    margin-top: 200px;
+}
+.round{
+    margin-top: 100px;
+}
 .wel{ 
     font-size: xx-large;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    /* font-family: 'Times New Roman', Times, serif; */
     text-transform: capitalize;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
+.welll{ 
+    font-size: xx-large;
+    color: #fff;
+    /* font-family: 'Times New Roman', Times, serif; */
+    text-transform: capitalize;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.well{ 
+    font-size: xx-large;
+    color: #fff;
+    /* font-family: 'Times New Roman', Times, serif; */
+    text-transform: capitalize;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .premium{
     display: flex;
     justify-content: end;
